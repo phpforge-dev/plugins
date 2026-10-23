@@ -1,9 +1,9 @@
-# TODO Hints (plugin de exemplo)
+# TODO Hints
 
 Instale em **Aparência › Plugins… › Instalar de pasta…** escolhendo esta pasta, ou copie-a para
-`.php-ide/plugins/todo-hints` dentro de um projeto. Na primeira ativação a IDE pede consentimento
-para a permissão `project.read` (leitura de `.todo-owners`). Sem ela, avisos e CodeLens continuam
-funcionando e a completion de responsáveis recebe `PermissionDenied`.
+`.php-ide/plugins/todo-hints` dentro de um projeto. Na primeira ativação, a IDE pede autorização
+para ler `.todo-owners`, por meio da permissão `project.read`. Se você não autorizar,
+os avisos e a contagem continuam funcionando; apenas as sugestões de responsáveis ficam indisponíveis.
 
 
 ## Exemplo
