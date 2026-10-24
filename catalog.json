@@ -60,6 +60,36 @@
       "minIdeVersion": "0.2.10",
       "repository": "https://github.com/phpforge-dev/plugin-prettier",
       "revision": "7b633cc21b92b9a7ac5dcd56faa58e1a26868728"
+    },
+    {
+      "id": "phpforge.php-debugger",
+      "name": "PHP Debugger / Xdebug",
+      "description": "PHP Debugger / Xdebug: separate Rust tool service and workbench integration.",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.11",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-php-debugger",
+      "revision": "53b3c3361434b68821ddc4d247a9ebafc304d878"
+    },
+    {
+      "id": "phpforge.composer",
+      "name": "Composer",
+      "description": "Composer: separate Rust tool service and workbench integration.",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.11",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-composer",
+      "revision": "08793150cc239a0f26b5646f681f3d0dfe0dfab1"
+    },
+    {
+      "id": "phpforge.php-tests",
+      "name": "PHPUnit / Pest",
+      "description": "PHPUnit / Pest: separate Rust tool service and workbench integration.",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.11",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-php-tests",
+      "revision": "9e36c458021bcbcc09a7d47b5cffb49fcbf838c2"
     }
   ]
 }
