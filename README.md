@@ -1,20 +1,34 @@
-# PHP IDE Plugins
+# Plugins do PHP IDE
 
-Aqui ficam os plugins do [PHP IDE](https://github.com/phpforge-dev/php-ide), mantidos por [Jeidison Farias](https://github.com/jeidison). O primeiro é o TODO Hints, que também serve de exemplo para quem quer criar uma extensão.
+Este repositório guarda o catálogo que a IDE consulta para pesquisar e instalar plugins. Cada plugin tem seu próprio repositório e pode ser atualizado sem recompilar a aplicação.
 
-## TODO Hints
+| Plugin | Repositório |
+|---|---|
+| Laravel e Blade | [plugin-laravel](https://github.com/phpforge-dev/plugin-laravel) |
+| Variáveis de ambiente | [plugin-dotenv](https://github.com/phpforge-dev/plugin-dotenv) |
+| Dockerfile e Compose | [plugin-docker](https://github.com/phpforge-dev/plugin-docker) |
+| Bash | [plugin-bash](https://github.com/phpforge-dev/plugin-bash) |
+| TODO Hints | [plugin-todo-hints](https://github.com/phpforge-dev/plugin-todo-hints) |
 
-O TODO Hints marca comentários `TODO` e `FIXME` e mostra quantos existem no arquivo. Se você criar um arquivo `.todo-owners` com os nomes da equipe, ele também sugere responsáveis ao digitar `TODO(`.
+## Instalar
 
-### Instalar
+No PHP IDE **0.2.9 ou superior**, abra **Aparência → Plugins…**. Na aba **Marketplace**, procure o plugin e clique em **Instalar**. A IDE mostra a versão, a origem e as permissões antes de ativar.
 
-1. Baixe ou clone este repositório.
-2. Na IDE, abra **Aparência → Plugins… → Instalar pasta**.
-3. Selecione `plugins/todo-hints` e revise a permissão `project.read`.
-4. Abra um arquivo PHP, Blade ou Markdown com `TODO: revisar`.
+Também é possível usar **Instalar pelo Git…** e colar a URL HTTPS do repositório. Uma tag, branch ou commit é opcional; a IDE registra o commit que foi instalado. O repositório precisa ter `plugin.json` e o JavaScript pronto na raiz. Nenhum script de build ou instalação é executado.
 
-Você só precisa autorizar `project.read` se quiser as sugestões de responsáveis. Sem essa permissão, as marcações e a contagem continuam funcionando. Veja os exemplos no [README do plugin](plugins/todo-hints/README.md).
+Laravel, .env, Docker e Bash já acompanham a distribuição da IDE. Podem ser desativados, removidos ou substituídos por outra versão na aba **Instalados**. Os instaladores anteriores à 0.2.9 ainda usam a integração antiga e não têm Marketplace.
+
+## Publicar no catálogo
+
+1. Publique o plugin no seu repositório, com `plugin.json`, o JavaScript pronto e a licença.
+2. Abra um pull request alterando `catalog.json` neste repositório.
+3. Informe o ID, nome, descrição, autor, versão, versão mínima da IDE, URL HTTPS e o commit completo da publicação.
+4. Execute `node scripts/validate-catalog.mjs` para conferir os dados. A revisão do PR verifica o pacote e a origem antes de publicar a entrada.
+
+O catálogo usa commits fixos de 40 caracteres. Atualizar uma branch no repositório do autor não altera uma versão já listada: para publicar uma atualização, altere a versão e o commit no catálogo. A IDE oferece a atualização; ela não substitui plugins automaticamente.
+
+O JSON é público e está em [`catalog.json`](catalog.json). A IDE guarda a última lista válida para continuar mostrando o catálogo quando estiver sem conexão. O download de um plugin ainda precisa de internet.
 
 ## Licença
 
-MIT. Copyright © 2026 Jeidison Farias.
+MIT. Código e catálogo mantidos por Jeidison Farias, na PHP Forge.

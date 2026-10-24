@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "phpforge.laravel",
+      "name": "Laravel",
+      "description": "Rotas, views, Blade, configurações, traduções e Eloquent para Laravel.",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.9",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-laravel",
+      "revision": "bacd48e36811433bd559bed8bb8a4be3fa55e7b8"
+    },
+    {
+      "id": "phpforge.dotenv",
+      "name": ".env",
+      "description": "Sugestões e navegação em variáveis de ambiente.",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.9",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-dotenv",
+      "revision": "d340824de5c5aa0eb79401915c8890f6d8d56b0d"
+    },
+    {
+      "id": "phpforge.docker",
+      "name": "Docker",
+      "description": "Sugestões, navegação e diagnósticos para Dockerfile e Compose.",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.9",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-docker",
+      "revision": "6750bc55f045c9a190d6d5519be3a4289c216349"
+    },
+    {
+      "id": "phpforge.bash",
+      "name": "Bash",
+      "description": "Sugestões e navegação em funções e variáveis Bash.",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.9",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-bash",
+      "revision": "bc23ea5f02512476d4caa0eea5843bfea8f39955"
+    },
+    {
+      "id": "example.todo-hints",
+      "name": "TODO Hints",
+      "description": "Marca comentários TODO e FIXME e sugere responsáveis pela equipe.",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.0",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-todo-hints",
+      "revision": "38659cfffea118d20d024dc551bf8cbd6e0d630e"
+    }
+  ]
+}
