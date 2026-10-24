@@ -50,6 +50,16 @@
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-todo-hints",
       "revision": "38659cfffea118d20d024dc551bf8cbd6e0d630e"
+    },
+    {
+      "id": "phpforge.prettier",
+      "name": "Prettier",
+      "description": "Formatador Prettier offline para JavaScript, TypeScript, Vue, JSON, HTML, CSS, SCSS, Markdown e YAML. Lê configurações JSON/YAML do projeto; PHP usa o formatador próprio da IDE.",
+      "author": "Jeidison Farias",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.10",
+      "repository": "https://github.com/phpforge-dev/plugin-prettier",
+      "revision": "08ea83dca72855dbe70d477ab4aa399996dd0218"
     }
   ]
 }
