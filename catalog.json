@@ -90,6 +90,16 @@
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-php-tests",
       "revision": "9e36c458021bcbcc09a7d47b5cffb49fcbf838c2"
+    },
+    {
+      "id": "phpforge.markdown",
+      "name": "Markdown",
+      "description": "Markdown navigation, completion, diagnostics, outline and live preview with Mermaid diagrams.",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.12",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-markdown",
+      "revision": "90f73aeef32e04bf95c11c62941370f2ded522d3"
     }
   ]
 }
