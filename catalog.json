@@ -4,7 +4,7 @@
     {
       "id": "phpforge.laravel",
       "name": "Laravel",
-      "description": "Rotas, views, Blade, configurações, traduções e Eloquent para Laravel.",
+      "description": "Rotas, views, Blade, configura\u00e7\u00f5es, tradu\u00e7\u00f5es e Eloquent para Laravel.",
       "version": "1.0.0",
       "minIdeVersion": "0.2.9",
       "author": "Jeidison Farias",
@@ -14,7 +14,7 @@
     {
       "id": "phpforge.dotenv",
       "name": ".env",
-      "description": "Sugestões e navegação em variáveis de ambiente.",
+      "description": "Sugest\u00f5es e navega\u00e7\u00e3o em vari\u00e1veis de ambiente.",
       "version": "1.0.0",
       "minIdeVersion": "0.2.9",
       "author": "Jeidison Farias",
@@ -24,7 +24,7 @@
     {
       "id": "phpforge.docker",
       "name": "Docker",
-      "description": "Sugestões, navegação e diagnósticos para Dockerfile e Compose.",
+      "description": "Sugest\u00f5es, navega\u00e7\u00e3o e diagn\u00f3sticos para Dockerfile e Compose.",
       "version": "1.0.0",
       "minIdeVersion": "0.2.9",
       "author": "Jeidison Farias",
@@ -34,7 +34,7 @@
     {
       "id": "phpforge.bash",
       "name": "Bash",
-      "description": "Sugestões e navegação em funções e variáveis Bash.",
+      "description": "Sugest\u00f5es e navega\u00e7\u00e3o em fun\u00e7\u00f5es e vari\u00e1veis Bash.",
       "version": "1.0.0",
       "minIdeVersion": "0.2.9",
       "author": "Jeidison Farias",
@@ -44,7 +44,7 @@
     {
       "id": "example.todo-hints",
       "name": "TODO Hints",
-      "description": "Marca comentários TODO e FIXME e sugere responsáveis pela equipe.",
+      "description": "Marca coment\u00e1rios TODO e FIXME e sugere respons\u00e1veis pela equipe.",
       "version": "1.0.0",
       "minIdeVersion": "0.2.0",
       "author": "Jeidison Farias",
@@ -54,7 +54,7 @@
     {
       "id": "phpforge.prettier",
       "name": "Prettier",
-      "description": "Formatador Prettier offline para JavaScript, TypeScript, Vue, JSON, HTML, CSS, SCSS, Markdown e YAML. Lê configurações JSON/YAML do projeto; PHP usa o formatador próprio da IDE.",
+      "description": "Formatador Prettier offline para JavaScript, TypeScript, Vue, JSON, HTML, CSS, SCSS, Markdown e YAML. L\u00ea configura\u00e7\u00f5es JSON/YAML do projeto; PHP usa o formatador pr\u00f3prio da IDE.",
       "author": "Jeidison Farias",
       "version": "1.0.1",
       "minIdeVersion": "0.2.10",
@@ -100,6 +100,126 @@
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-markdown",
       "revision": "90f73aeef32e04bf95c11c62941370f2ded522d3"
+    },
+    {
+      "id": "phpforge.symfony",
+      "name": "Symfony / Twig",
+      "description": "Symfony routes, Twig templates, services, parameters and environment references.",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.13",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-symfony",
+      "revision": "e0ad443b104075bddc13621e91d707b394a99c7f"
+    },
+    {
+      "id": "phpforge.ignore",
+      "name": "Ignore files",
+      "description": "Project path and common pattern completion for ignore files.",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.13",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-ignore",
+      "revision": "4fc9a2f77526db969c48e4e96754ea168428382e"
+    },
+    {
+      "id": "phpforge.svg-preview",
+      "name": "SVG Preview",
+      "description": "Live SVG source preview, zoom, backgrounds and recoverable XML errors.",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.13",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-svg-preview",
+      "revision": "aaa5ac3d9576e9cbbc1ae914d0b23e1b5971b961"
+    },
+    {
+      "id": "phpforge.image-preview",
+      "name": "Image Preview",
+      "description": "Image viewing, zoom, transparency backgrounds and disk reload.",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.13",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-image-preview",
+      "revision": "88a6cd698c0b8e25e53f0d9dbaa7cb39169b83d7"
+    },
+    {
+      "id": "phpforge.php-intelligence",
+      "name": "PHP Intelligence",
+      "description": "PHP semantic navigation, local types, hierarchy, inspections and refactorings.",
+      "version": "1.0.1",
+      "minIdeVersion": "0.2.13",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-php-intelligence",
+      "revision": "34075e092a76fdf4c6bed77dfae50c02a0ab8c7b"
+    },
+    {
+      "id": "phpforge.docker-services",
+      "name": "Docker Services",
+      "description": "docker-services workbench integration with explicit host services.",
+      "version": "1.0.1",
+      "minIdeVersion": "0.2.13",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-docker-services",
+      "revision": "0de570e1e61b980c9c67f718269ff25379982731"
+    },
+    {
+      "id": "phpforge.terminal",
+      "name": "Terminal",
+      "description": "terminal workbench integration with explicit host services.",
+      "version": "1.0.1",
+      "minIdeVersion": "0.2.13",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-terminal",
+      "revision": "bbdf64de5d3f1e9e31c17753a239555734841f1d"
+    },
+    {
+      "id": "phpforge.git",
+      "name": "Git",
+      "description": "git workbench integration with explicit host services.",
+      "version": "1.0.1",
+      "minIdeVersion": "0.2.13",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-git",
+      "revision": "7277252ab6ed9cf7f59aae54efd2acfafe38dca9"
+    },
+    {
+      "id": "phpforge.agents",
+      "name": "Agents",
+      "description": "agents workbench integration with explicit host services.",
+      "version": "1.0.1",
+      "minIdeVersion": "0.2.13",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-agents",
+      "revision": "e6236905963b6341d4f6033862847a00a68843f6"
+    },
+    {
+      "id": "phpforge.php-formatter",
+      "name": "PHP Formatter",
+      "description": "Independent PHP whitespace formatter with EditorConfig, safe selection formatting and syntax preservation.",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.13",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-php-formatter",
+      "revision": "a7c24002fe9e058fb0b12e6ee3182792ffd7ad5c"
+    },
+    {
+      "id": "phpforge.database",
+      "name": "Database / SQL",
+      "description": "Database explorer, SQL console, SQL intelligence and database driver service.",
+      "version": "1.0.3",
+      "minIdeVersion": "0.2.13",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-database",
+      "revision": "28b63bfad6537a9af2954232cb9a0e1883ed838a"
+    },
+    {
+      "id": "phpforge.web-languages",
+      "name": "Web Languages",
+      "description": "JavaScript, TypeScript, React and Vue language intelligence with offline framework types.",
+      "version": "1.0.0",
+      "minIdeVersion": "0.2.13",
+      "author": "Jeidison Farias",
+      "repository": "https://github.com/phpforge-dev/plugin-web-languages",
+      "revision": "32a3fd83012da48d7a8f5def950a79b3f517cc79"
     }
   ]
 }
