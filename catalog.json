@@ -175,11 +175,11 @@
       "id": "phpforge.git",
       "name": "Git",
       "description": "git workbench integration with explicit host services.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "minIdeVersion": "0.2.14",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-git",
-      "revision": "79894b5603bb6dbdb4dd5968999a5e1ba4969438"
+      "revision": "1e9cebee0777ada50582c1bcc309eb6b886a97f3"
     },
     {
       "id": "phpforge.agents",
@@ -205,11 +205,11 @@
       "id": "phpforge.database",
       "name": "Database / SQL",
       "description": "Database explorer, SQL console, SQL intelligence and database driver service.",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "minIdeVersion": "0.2.13",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-database",
-      "revision": "28b63bfad6537a9af2954232cb9a0e1883ed838a"
+      "revision": "6a30048d6c89fae1119cdaa456a99a02208bfcc6"
     },
     {
       "id": "phpforge.web-languages",
