@@ -75,21 +75,21 @@
       "id": "phpforge.composer",
       "name": "Composer",
       "description": "Composer: separate Rust tool service and workbench integration.",
-      "version": "1.1.0",
-      "minIdeVersion": "0.2.19",
+      "version": "1.2.0",
+      "minIdeVersion": "0.2.20",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-composer",
-      "revision": "6a2a1015f84ae0b7f445e31b2a3337d4cf3db4bd"
+      "revision": "3fd4a576e3733128d0c3966f4f33c45fd3b58b90"
     },
     {
       "id": "phpforge.php-tests",
       "name": "PHPUnit / Pest",
       "description": "PHPUnit / Pest: separate Rust tool service and workbench integration.",
-      "version": "1.1.0",
-      "minIdeVersion": "0.2.19",
+      "version": "1.2.0",
+      "minIdeVersion": "0.2.20",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-php-tests",
-      "revision": "7eb83a8a132d24210a1db66126c02d40f1b013c2"
+      "revision": "04f4a7623c74325bbed2c1548a93b3b78292658d"
     },
     {
       "id": "phpforge.markdown",
@@ -105,11 +105,11 @@
       "id": "phpforge.symfony",
       "name": "Symfony / Twig",
       "description": "Symfony routes, Twig templates, services, parameters and environment references.",
-      "version": "1.1.0",
-      "minIdeVersion": "0.2.19",
+      "version": "1.2.0",
+      "minIdeVersion": "0.2.20",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-symfony",
-      "revision": "b8fa7f788fc75324e15f5cb2dca049da71dabdda"
+      "revision": "931df0f061e27c3ba87ebff9f716a6a7df7974da"
     },
     {
       "id": "phpforge.ignore",
@@ -145,21 +145,21 @@
       "id": "phpforge.php-intelligence",
       "name": "PHP Intelligence",
       "description": "PHP semantic navigation, local types, hierarchy, inspections and refactorings.",
-      "version": "1.1.0",
-      "minIdeVersion": "0.2.19",
+      "version": "1.2.0",
+      "minIdeVersion": "0.2.20",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-php-intelligence",
-      "revision": "4112b24671ef6bf6fdbb5067afc0ba6a5cb04641"
+      "revision": "f3bee71e12f5b9a147c6c8e1a236ab8014310741"
     },
     {
       "id": "phpforge.docker-services",
       "name": "Docker Services",
       "description": "docker-services workbench integration with explicit host services.",
-      "version": "1.0.2",
-      "minIdeVersion": "0.2.13",
+      "version": "1.1.0",
+      "minIdeVersion": "0.2.20",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-docker-services",
-      "revision": "bc95a57fb5049c6f84876a0e4c3ced9459205b91"
+      "revision": "ae7bf9c2757087cde0e826cb674e9d224d03e11b"
     },
     {
       "id": "phpforge.terminal",
@@ -175,21 +175,21 @@
       "id": "phpforge.git",
       "name": "Git",
       "description": "git workbench integration with explicit host services.",
-      "version": "1.2.0",
-      "minIdeVersion": "0.2.19",
+      "version": "1.3.0",
+      "minIdeVersion": "0.2.20",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-git",
-      "revision": "2e63ef0090b66be828b3e6d6bdc0450bea204f18"
+      "revision": "9056c30de8098380a9605ac0fcf0c6f238438f6f"
     },
     {
       "id": "phpforge.agents",
       "name": "Agents",
       "description": "agents workbench integration with explicit host services.",
-      "version": "1.1.0",
-      "minIdeVersion": "0.2.19",
+      "version": "1.2.0",
+      "minIdeVersion": "0.2.20",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-agents",
-      "revision": "cb899d1a5dcbd2f9b66315a6b034e0d6b54ab382"
+      "revision": "aa585d9dac2116b6024a503361daf1cae14d3458"
     },
     {
       "id": "phpforge.php-formatter",
@@ -205,11 +205,11 @@
       "id": "phpforge.database",
       "name": "Database / SQL",
       "description": "Database explorer, SQL console, SQL intelligence and database driver service.",
-      "version": "1.1.0",
-      "minIdeVersion": "0.2.19",
+      "version": "1.2.0",
+      "minIdeVersion": "0.2.20",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-database",
-      "revision": "283d268ce896c32ea16496ba91d9a9cb40d696bb"
+      "revision": "2857d6889d1077bd0802a066e7271c47c662be36"
     },
     {
       "id": "phpforge.web-languages",
