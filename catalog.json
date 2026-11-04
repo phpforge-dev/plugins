@@ -65,31 +65,31 @@
       "id": "phpforge.php-debugger",
       "name": "PHP Debugger / Xdebug",
       "description": "PHP Debugger / Xdebug: separate Rust tool service and workbench integration.",
-      "version": "1.0.0",
-      "minIdeVersion": "0.2.11",
+      "version": "1.1.0",
+      "minIdeVersion": "0.2.19",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-php-debugger",
-      "revision": "53b3c3361434b68821ddc4d247a9ebafc304d878"
+      "revision": "06a1e716e455e16ce7f1074202046c382977c020"
     },
     {
       "id": "phpforge.composer",
       "name": "Composer",
       "description": "Composer: separate Rust tool service and workbench integration.",
-      "version": "1.0.0",
-      "minIdeVersion": "0.2.11",
+      "version": "1.1.0",
+      "minIdeVersion": "0.2.19",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-composer",
-      "revision": "08793150cc239a0f26b5646f681f3d0dfe0dfab1"
+      "revision": "6a2a1015f84ae0b7f445e31b2a3337d4cf3db4bd"
     },
     {
       "id": "phpforge.php-tests",
       "name": "PHPUnit / Pest",
       "description": "PHPUnit / Pest: separate Rust tool service and workbench integration.",
-      "version": "1.0.0",
-      "minIdeVersion": "0.2.11",
+      "version": "1.1.0",
+      "minIdeVersion": "0.2.19",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-php-tests",
-      "revision": "9e36c458021bcbcc09a7d47b5cffb49fcbf838c2"
+      "revision": "7eb83a8a132d24210a1db66126c02d40f1b013c2"
     },
     {
       "id": "phpforge.markdown",
@@ -105,11 +105,11 @@
       "id": "phpforge.symfony",
       "name": "Symfony / Twig",
       "description": "Symfony routes, Twig templates, services, parameters and environment references.",
-      "version": "1.0.0",
-      "minIdeVersion": "0.2.13",
+      "version": "1.1.0",
+      "minIdeVersion": "0.2.19",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-symfony",
-      "revision": "e0ad443b104075bddc13621e91d707b394a99c7f"
+      "revision": "b8fa7f788fc75324e15f5cb2dca049da71dabdda"
     },
     {
       "id": "phpforge.ignore",
@@ -125,41 +125,41 @@
       "id": "phpforge.svg-preview",
       "name": "SVG Preview",
       "description": "Live SVG source preview, zoom, backgrounds and recoverable XML errors.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "minIdeVersion": "0.2.13",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-svg-preview",
-      "revision": "aaa5ac3d9576e9cbbc1ae914d0b23e1b5971b961"
+      "revision": "b6dd6a543a0adfe4447ec25b539048dea28183c5"
     },
     {
       "id": "phpforge.image-preview",
       "name": "Image Preview",
       "description": "Image viewing, zoom, transparency backgrounds and disk reload.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "minIdeVersion": "0.2.13",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-image-preview",
-      "revision": "88a6cd698c0b8e25e53f0d9dbaa7cb39169b83d7"
+      "revision": "1d030d958847aba1a46bee698b3cc88560aa04bb"
     },
     {
       "id": "phpforge.php-intelligence",
       "name": "PHP Intelligence",
       "description": "PHP semantic navigation, local types, hierarchy, inspections and refactorings.",
-      "version": "1.0.1",
-      "minIdeVersion": "0.2.13",
+      "version": "1.1.0",
+      "minIdeVersion": "0.2.19",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-php-intelligence",
-      "revision": "34075e092a76fdf4c6bed77dfae50c02a0ab8c7b"
+      "revision": "4112b24671ef6bf6fdbb5067afc0ba6a5cb04641"
     },
     {
       "id": "phpforge.docker-services",
       "name": "Docker Services",
       "description": "docker-services workbench integration with explicit host services.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "minIdeVersion": "0.2.13",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-docker-services",
-      "revision": "0de570e1e61b980c9c67f718269ff25379982731"
+      "revision": "bc95a57fb5049c6f84876a0e4c3ced9459205b91"
     },
     {
       "id": "phpforge.terminal",
@@ -175,21 +175,21 @@
       "id": "phpforge.git",
       "name": "Git",
       "description": "git workbench integration with explicit host services.",
-      "version": "1.1.1",
-      "minIdeVersion": "0.2.18",
+      "version": "1.2.0",
+      "minIdeVersion": "0.2.19",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-git",
-      "revision": "39ef5443f4bbec5b3c4f3a6a6531ba05f4e633ea"
+      "revision": "2e63ef0090b66be828b3e6d6bdc0450bea204f18"
     },
     {
       "id": "phpforge.agents",
       "name": "Agents",
       "description": "agents workbench integration with explicit host services.",
-      "version": "1.0.2",
-      "minIdeVersion": "0.2.14",
+      "version": "1.1.0",
+      "minIdeVersion": "0.2.19",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-agents",
-      "revision": "a1f2dee3603f32abe7fd024ea2344c0871e38d61"
+      "revision": "cb899d1a5dcbd2f9b66315a6b034e0d6b54ab382"
     },
     {
       "id": "phpforge.php-formatter",
@@ -205,11 +205,11 @@
       "id": "phpforge.database",
       "name": "Database / SQL",
       "description": "Database explorer, SQL console, SQL intelligence and database driver service.",
-      "version": "1.0.5",
-      "minIdeVersion": "0.2.13",
+      "version": "1.1.0",
+      "minIdeVersion": "0.2.19",
       "author": "Jeidison Farias",
       "repository": "https://github.com/phpforge-dev/plugin-database",
-      "revision": "d005d015dca95fb19417fbfcf5c167a0d6e2f213"
+      "revision": "283d268ce896c32ea16496ba91d9a9cb40d696bb"
     },
     {
       "id": "phpforge.web-languages",
